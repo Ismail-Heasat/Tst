@@ -1,18 +1,10 @@
 {
-  "projects": [
-    {
-      "name": "nextjs-app1",
-      "rootDirectory": "App/nextjs-app1"
-    },
-    {
-      "name": "nextjs-app2",
-      "rootDirectory": "App/nextjs-app2"
-    },
-    {
-      "name": "nextjs-app3",
-      "rootDirectory": "App/nextjs-app3"
+  "build": {
+    "env": {
+      "TURBO_TOKEN": "@turbo-token",
+      "TURBO_TEAM": "@turbo-team"
     }
-  ]
+  }
 }
 
   
