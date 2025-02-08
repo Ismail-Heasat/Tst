@@ -1,0 +1,17 @@
+{
+  "tasks": {
+    "dev": {
+      "dependsOn": ["dev:react-app", "dev:nextjs-app", "dev:server"],
+      "outputs": []
+    },
+    "dev:react-app": {
+      "outputs": []
+    },
+    "dev:nextjs-app": {
+      "outputs": []
+    },
+    "dev:server": {
+      "outputs": []
+    }
+  }
+}
