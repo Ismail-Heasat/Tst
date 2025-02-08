@@ -1,23 +1,32 @@
 {
   "tasks": {
     "dev": {
-      "dependsOn": ["dev:react-app", "dev:nextjs-app", "dev:server"],
+      "dependsOn": ["dev:nextjs-app1", "dev:nextjs-app2", "dev:nextjs-app3", "dev:server"],
       "outputs": []
     },
-    "dev:react-app": {
+    "dev:nextjs-app1": {
       "outputs": []
     },
-    "dev:nextjs-app": {
+    "dev:nextjs-app2": {
+      "outputs": []
+    },
+    "dev:nextjs-app3": {
       "outputs": []
     },
     "dev:server": {
       "outputs": []
     },
     "build": {
-      "dependsOn": ["build:nextjs-app"],
+      "dependsOn": ["build:nextjs-app1", "build:nextjs-app2", "build:nextjs-app3"],
       "outputs": []
     },
-    "build:nextjs-app": {
+    "build:nextjs-app1": {
+      "outputs": []
+    },
+    "build:nextjs-app2": {
+      "outputs": []
+    },
+    "build:nextjs-app3": {
       "outputs": []
     }
   }
