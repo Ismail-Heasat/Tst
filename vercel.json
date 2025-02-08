@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "nextjs-app1",
+      "root": "App/nextjs-app1"
+    },
+    {
+      "name": "nextjs-app2",
+      "root": "App/nextjs-app2"
+    },
+    {
+      "name": "nextjs-app3",
+      "root": "App/nextjs-app3"
+    }
+  ]
+}
+
+
+  
