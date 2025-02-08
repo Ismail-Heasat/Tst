@@ -12,6 +12,13 @@
     },
     "dev:server": {
       "outputs": []
+    },
+    "build": {
+      "dependsOn": ["build:nextjs-app"],
+      "outputs": []
+    },
+    "build:nextjs-app": {
+      "outputs": []
     }
   }
 }
