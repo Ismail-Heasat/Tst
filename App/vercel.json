@@ -1,9 +1,0 @@
-{
-    "projects": {
-      "nextjs-app1": { "rootDirectory": "App/nextjs-app1" },
-      "nextjs-app2": { "rootDirectory": "App/nextjs-app2" },
-      "nextjs-app3": { "rootDirectory": "App/nextjs-app3" }
-    }
-  }
-
-  
